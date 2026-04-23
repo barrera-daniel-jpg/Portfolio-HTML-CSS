@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Barrera | Portafolio</title>
+    <link rel="stylesheet" href="styles_index.css">
+</head>
+<body>
+
+    <!-- Encabezado / Navbar -->
+    <header>
+        <span class="nombre">Daniel Barrera</span>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección: Sobre mí -->
+    <section id="sobre-mi" class="seccion">
+        <h2 class="titulo">Sobre mí</h2>
+        <hr>
+        <p>
+            Me llamo Daniel Barrera, soy de Barranquilla y vivo con un pie en el mundo del desarrollo,
+            la programación y la tecnología. El otro pie está en el mundo deportivo.
+            <br><br>
+            De día aprendo a construir soluciones digitales en Riwi; por las tardes entreno equipos
+            y les enseño que el trabajo en grupo es la única forma de ganar.
+            <br><br>
+            Soy técnico en computadoras con hambre de crecer, me caracterizo por adaptarme rápido,
+            comunicarme con claridad y no soltar las cosas hasta que funcionan. No busco solo tener
+            un buen trabajo, busco convertirme en referente en lo que hago, conseguir libertad
+            financiera real y, sobre todo, construir proyectos que dejen huella.
+        </p>
+    </section>
+
+    <!-- Sección: Proyectos -->
+    <section id="proyectos" class="seccion">
+        <h2 class="titulo">Proyectos</h2>
+        <hr>
+        <ul class="lista-proyectos">
+            <li class="card"><a href="#">Barranquilla En Verde (HTML y CSS)</a></li>
+            <li class="card"><a href="#">Sistema CRUD (Python)</a></li>
+            <li class="card"><a href="#">Gestor Escolar (Python)</a></li>
+        </ul>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contacto" class="seccion">
+        <h2 class="titulo">Contacto</h2>
+        <hr>
+        <div class="info-contacto">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre y apellido" required>
+
+            <label for="email">Correo</label>
+            <input type="email" name="email" id="email" placeholder="correo@ejemplo.com" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" rows="4" placeholder="Ingrese el mensaje que desea enviar"></textarea>
+
+            <button type="button" class="boton">Enviar</button>
+        </div>
+    </section>
+
+    <footer>
+        <p><a href="mascotas.html">Ver mis mascotas</a></p>
+    </footer>
+
+</body>
+</html>
