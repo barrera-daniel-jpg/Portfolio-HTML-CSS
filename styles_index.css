@@ -323,22 +323,7 @@ footer {
     }
 }
 
-/* Scrip */
-.info {
-    display: none; /* oculto por defecto */
-}
-
-.info.visible {
-    display: block; /* se muestra al hacer clic */
-}
-
-.info {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.info.visible {
-    display: block;
-    opacity: 1;
+/* Estetica del boton */
+.espacio {
+    margin-top: 2rem;
 }

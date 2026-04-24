@@ -1,14 +1,20 @@
-const boton = document.getElementById("btn-info");
-const info = document.getElementById("sobre-mi");
+let tipografiaActiva = false;
 
-boton.addEventListener("click", function() {
+function cambiarTipografia() {
+    const texto = document.getElementById("texto-sobre-mi");
+    const boton = document.getElementById("btn-fuente");
 
-    info.classList.toggle("visible");
-
-    if (info.classList.contains("visible")) {
-        boton.textContent = "Ocultar información";
+    if (tipografiaActiva) {
+        texto.style.fontFamily = "";
+        texto.style.fontSize = "";
+        texto.style.lineHeight = "";
+        boton.textContent = "Cambiar tipografía";
     } else {
-        boton.textContent = "Ver información";
+        texto.style.fontFamily = "Georgia, serif";
+        texto.style.fontSize = "1.2rem";
+        texto.style.lineHeight = "2.2";
+        boton.textContent = "Tipografía original";
     }
 
-});
+    tipografiaActiva = !tipografiaActiva;
+}
