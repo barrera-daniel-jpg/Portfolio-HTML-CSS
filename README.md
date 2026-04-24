@@ -1,32 +1,48 @@
 # Portfolio-HTML-CSS
-Esto es un portafolio personal como parte de un taller progresivo de desarrollo web. El proyecto evolucionó desde una estructura HTML básica hasta un sitio responsivo con estilos e interactividad con JavaScript.
-# Estrucutra
-portafolio/
->├── index.html          # Página principal del portafolio
->>├── mascotas.html       # Página secundaria con galería de mascotas
->>>├── styles_index.css    # Hoja de estilos principal
->>>>└── scrip.js            # Lógica de interactividad en JavaScript
-# ✅ Criterios de aceptación cumplidos
- - Archivos index.html, mascotas.html, styles_index.css y scrip.js presentes.
- - Portafolio con encabezado, menú, secciones y formulario de contacto.
- - Navegación funcional entre páginas.
- - Galería con 6 mascotas, imágenes y descripciones.
- - Flexbox en header y Grid en galería de mascotas.
- - Media queries para móvil, tablet y escritorio.
- - Imágenes responsivas y tipografía en unidades relativas.
- - Variables globales en :root y CSS optimizado.
- - scrip.js enlazado correctamente con interacción visible al usuario.
- - Código indentado, limpio y comentado.
-# Funcionalidades
-> Estructura y navegación
-El sitio cuenta con dos páginas HTML (index.html y mascotas.html) conectadas entre sí mediante enlaces en el menú y el footer, con un header sticky que permanece visible al hacer scroll.
-Portafolio principal
-Incluye tres secciones: Sobre mí con descripción personal, Proyectos con tarjetas enlazables que se animan al hover, y Contacto con un formulario de nombre, correo y mensaje.
-Galería de mascotas
-Muestra 6 mascotas en un grid responsivo tipo mosaico, cada una con imagen, ícono emoji, nombre y descripción con personalidad propia. Además incluye un carrusel animado con CSS puro al inicio de la página.
-Diseño responsivo
-El layout se adapta a móviles (menú en columna, carrusel reducido) y escritorio (grid de múltiples columnas), usando imágenes con max-width: 100% y tipografía en unidades rem.
-Estilos avanzados
-Paleta oscura con acento dorado definida en variables :root, Flexbox en el header, Grid en la galería, hover animado en tarjetas y enlaces, y bordes redondeados en imágenes y botones.
-Interactividad JavaScript
-Un botón en la sección Sobre mí alterna dinámicamente la tipografía del texto entre la fuente original y una fuente serif, cambiando también el texto del botón como confirmación visual.
+This is a personal portfolio created as part of a progressive web development workshop. The project evolved from a basic HTML structure to a responsive website with styles and interactivity using JavaScript.
+
+# Structure
+portfolio/
+>├── index.html # Main portfolio page
+>>├── pets.html # Secondary page with pet gallery
+>>>├── styles_index.css # Main stylesheet
+>>>>└── script.js # Interactivity logic in JavaScript
+# ✅ Acceptance criteria met
+
+- index.html, pets.html, styles_index.css, and script.js files present.
+
+- Portfolio with header, menu, sections, and contact form.
+
+- Functional navigation between pages.
+
+- Gallery with 6 pets, images, and descriptions.
+
+- Flexbox in the header and Grid in the pet gallery.
+
+- Media queries for mobile, tablet, and desktop.
+
+- Responsive images and typography in relative units.
+
+- Global variables in :root and optimized CSS.
+
+- Properly linked script.js with visible user interaction.
+
+- Indented, clean, and commented code.
+
+# Features
+### Structure and Navigation
+The site has two HTML pages (index.html and pets.html) connected by links in the menu and footer, with a header that remains visible on scroll.
+Main Portfolio
+Includes three sections: About Me with a personal description, Projects with cards that animate on hover, and Contact with a form for name, email, and message.
+
+### Pet Gallery
+Displays 6 pets in a responsive mosaic grid, each with an image, emoji icon, name, and description with its own personality. It also includes an animated carousel with pure CSS at the top of the page.
+
+### Responsive Design
+The layout adapts to mobile devices (column menu, reduced carousel) and desktop, using images with a max-width of 100% and typography in rem units.
+
+## Advanced Styles
+Dark palette with gold accents defined in the :root variable, Flexbox in the header, Grid in the gallery, animated hover on cards and links, and rounded corners on images and buttons.
+
+## JavaScript Interactivity
+A button in the About Me section dynamically alternates the text font between the original font and a serif font, also changing the button text as a visual confirmation.
