@@ -17,7 +17,7 @@ body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
+    font-size: 1rem;    
     line-height: 1.6;
 }
 
@@ -92,7 +92,6 @@ hr {
     margin: 0.5rem 0 1.5rem;
     opacity: 0.5;
 }
-
 /* Proyectos */
 .lista-proyectos {
     list-style: none;
@@ -190,6 +189,7 @@ footer {
     height: 420px;
     overflow: hidden;
     position: relative;
+    background-color:#000;
 }
 
 .contenedor-img1 ul {
@@ -205,6 +205,7 @@ footer {
 .contenedor-img1 li {
     width: 33.333%;
     height: 100%;
+    padding: 10px;
 }
 
 .contenedor-img1 img {
@@ -231,7 +232,7 @@ footer {
 }
 
 .texto-superpuesto h2 {
-    color: #fff;
+    color:var(--color-acento);
     font-size: 1.6rem;
 }
 
